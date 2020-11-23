@@ -26,85 +26,7 @@ h4{
   max-width: 100%;
 }
 
-/*header*/
-/*.logo-marca img{
-margin-right: 0rem;
-}
-.redes-sociales{
-padding-right: 20px;
-}
-.redes-sociales a{
-color: #ffffff; 
-font-size: 20px;  
-margin-left: 47px;
 
-}
-.redes-sociales a:hover{
-color: #ffffff;
-text-decoration: none;
-
-}
-
-
-
-.contenido-header{
-
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding-top: 3rem;
-
-}
-
-header.site-header{
-  
-  background-image: url(../img/barrasuperior1.png);
-  background-position: center center;
-  background-size: cover;
-  
-  height: 100px;
-  margin-top: 1rem;
-  width: 100%!important;
-  
-  
-  
- }
- /*menu de navegacion responsivo para tablet*/
- /*@media (max-width:768px) {
-  .contenido-header{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center; 
-    justify-content: center;   
-    padding-bottom: 2rem; 
-      
-    }
-    
-   
- }
- @media ( max-width:768px) {
- 
-  .redes-sociales a{
-    color: #ffffff; 
-    font-size: 16px;  
-    margin-left: 35px;
-    
-    }
-    header.site-header{
-  
-      background-image: url(../img/fondo-t.jpg);
-      background-position: center center;
-      background-size: cover;
-      
-      height: 100px;
-      margin-top: 1rem;
-      width: 100%!important;
-      
-      
-      
-     }
-    
- }*/
  /*menu de navegacion responsivo para cel*/
 
 .contenido{ 
@@ -356,6 +278,7 @@ margin-top: 10px;
   .centrar-cel{
     max-width: 300px;
     margin: 0 auto;
+    
   }
 
   .icono:hover img{
@@ -392,6 +315,7 @@ margin-top: 10px;
     font-size: 14px;
     top: -28px;
     left: -25px;
+    
   }
   
   #contacto{
@@ -457,7 +381,7 @@ margin-top: 10px;
   background-position: center center;
   background-size: cover;
   scroll-margin-top: 2rem;
-  height: 225px!important;
+  height: 210px!important;
   }
   .barra1 {
     padding-bottom: 20px;
@@ -721,6 +645,7 @@ margin-top: 4px;
     
   }
   .barra-roja a{
+    align-items: ;
     text-decoration: none!important; 
     color: #ffffff;
   }
@@ -742,19 +667,47 @@ margin-top: 4px;
   /*casita*/
 
   @media(max-width:768px) {
-    .barra-roja p{
+    
+      .barra-roja{   
+        display: flex;
+        justify-content: center; 
+        align-items: center;  
+        background-color:#221f1f;
+       height: 50px;
+        
+        
+      }
+   
+    
+    
+
+    .barra-roja a{
+     align-items: center;
+     
+      
+    }
+   
+    .barra-roja p {
+      align-items: center!important;
       margin-left: 20px;
       font-size: 18px;
+      padding-bottom: 8px;
+      
     }
-    .barra-roja .inicio{
-      display: none;
-    }
+   
   }
 
   @media(max-width:556px) {
+    .barra-roja{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    }
     .barra-roja p{
       margin-left:-5px ;
-      font-size: 12px;
+      font-size: 17px;
+      padding-bottom: 14px;
     }
     .barra-roja .inicio{
       display: none;
