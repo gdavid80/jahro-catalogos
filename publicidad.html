@@ -25,8 +25,7 @@
                     <nav class="menu" >
 
                         <ul>
-                            
-                            <li><a href="index.html">EMPRESA</a></li>                            
+                            <li><a href="index.html">EMPRESA</a></li>
                             <li><a href="#contacto">CONTACTO</a></li>
                             <li><a href="catalogo.html">CATALOGO</a></li>
                             <li><a href="#novedades">NOVEDADES</a></li>
@@ -83,25 +82,52 @@
 
       </div>
     </hero>
-       <div class="barra-roja">          
-          <p> <a href="index.html"><i class="fas fa-home fa-2x"></i></i>&nbsp;&nbsp;&nbsp;</i>&nbsp;<i class="fas fa-play "></i></a>&nbsp;&nbsp; <a href="index.html" class="inicio" id="catalogo">INICIO &nbsp;/</a> publicidades</p>
-      </div>
+    <main class="contenedor-publicidad centrado">
+        <h1>jahro: progreso e innovacion</h1>
+        <div class="contenido-publididad centrado">
+                <div class="primera-publicidad">
+                    <p>En 1962, JAHRO se dedicaba exclusivamente a la fabricación de altoparlantes de todo tipo,
+                        siendo proveedora de las mas prestigiosas industrias que en esos tiempos se dedicaban a
+                        la producción de equipos de audio, radio y TV en nuestro país.
+                        En octubre de 1988,  la empresa se reconvierte, y comienza a incursionar con mayor fuerza
+                        en los comercios de venta al gremio y casas de electrónica y autoradios  de Argentina.
+                        Desde hace algunos años, además de la fabricación de altoparlantes de línea profesional,
+                        nos hemos dedicado a la importación de componentes y productos terminados relacionados
+                        con el audio y la electrónica.
+                        Estos productos comprenden una amplia gama partiendo de los tradicionales parlantes 
+                        profesionales, parlantes para refuerzo de sonido, parlantes línea hogar, parlantes para 
+                        sonido ambiente, parlantes y bafles para P.A. , parlantes náuticos, bocinas, drivers, 
+                        tweeters, super tweeters, piezoeléctricos , parlantes para audio car, cables, </p>
 
-      <main class="publicidad-contenedor centrado">
-          <div class="img-primera">
-            <a href="catalogo.html">
-             <img src="img/primera-publicidad.png" alt="" >
-            </a>
-             
-             
-          </div>
-          
+                </div>
+                <div class="segunda-publicidad">
+                        <p>conectores, mixes, micrófonos, soportes, controles remotos para
+                            TV, LCD, y AC, cintas de LED, fuentes switching , multímetros, baterías, herramientas,
+                            telefonía, accesorios para audio car y sonido profesional.
+                            Actualmente estamos desarrollando una nueva línea de pequeños electrodomésticos tales
+                            como pavas eléctricas con corte para mate y exclusivamente hervidoras, anafes eléctricos 
+                            de una o dos hornallas, exprimidor de cítricos, y muchos nuevos productos que iremos
+                            incorporando próximamente.
+                            “  El esfuerzo realizado a través de todos estos años de trabajo, os ha llevado a una
+                            permanencia en el mercado que pretende ser cada día mayor, oreciendo mas y mejores 
+                            productos de calidad, competitivos y brindando un servicio cada vez mas eficiente con 
+                            una esmerada atención . Nuestra premisa ha sido siempre ofrecer productos con un fuerte
+                            respaldo al comercio, para trasladar al usuario esa misma convicción en todo el lineal
+                            de la marca JAHRO”.
+                            </p>
 
+                </div>
+        </div>
+        <div class="imagen-publicidad centrado">
+            <img src="img/catalogo-vista-principal.png" alt="">
 
-      </main>
+        </div>
+    </main>
 
    
 
+    
+   
     
 
     <section class="formulario contenedor  ">
@@ -230,7 +256,7 @@
 
       $(document).ready(function(){
 
-  $('a[href^="#empresa"], a[href^="#productos"], a[href^="#contacto"],  a[href^="#catalogo"], a[href^="#publicidad"]').click(function(event){
+  $('a[href^="#empresa"], a[href^="#productos"], a[href^="#contacto"], a[href^="#catalogo"]').click(function(event){
 
   event.preventDefault();
   var elem=$(this).attr("href");

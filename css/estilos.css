@@ -715,4 +715,28 @@ margin-top: 4px;
       
     }
   }
-  
+  /* publicidad*/
+
+  .contenedor-publicidad{
+    margin-top: -5px;
+  }
+  .contenedor-publicidad h1{
+    text-align: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .contenido-publididad {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+}
+.primera-publicidad p{
+  font-size: 17px;
+  text-align: left;
+}
+
+.segunda-publicidad p{
+  font-size: 17px;
+  text-align: left;
+}
